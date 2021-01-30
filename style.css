@@ -1,0 +1,44 @@
+.bg{
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+  height: 100vh;
+  opacity: 0.8;
+}
+h2{
+  text-align: center;
+  color:goldenrod;
+
+}
+textarea {
+  margin:1rem;
+  display: block;
+  height: 10vh;
+  width:80%;
+  padding: 1rem;
+}
+#btn-translate{
+  margin: 2rem;
+  display: flex;
+  align-items: column;
+  justify-content: center;
+}
+#outti {
+  padding: 1rem;
+   margin:1rem;
+   border: 1px solid black;
+   background-color: white;
+   height: 10vh;
+   width: 80%;
+   font-style: italic;
+   font-size: 20px;
+
+}
+#info{
+  margin: 1 rem;
+  padding: 1rem;
+  display: flex;
+  color: gold;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+
+}
