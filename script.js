@@ -16,7 +16,7 @@ function clickhandler()
   fetch(urlgetter(textt))
   .then(response => response.json())
   .then(json =>{
-    var outtext=json.contents.translated
+    var outtext=json.contents.translated;
     out.innerText=outtext;
 
   })

@@ -1,9 +1,20 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
 .bg{
-  background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
-  height: 100vh;
-  opacity: 0.8;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
 }
 h2{
+  margin: 0px;
+  background-color: rgb(39, 228, 140);
+  height: 50px;
+  border: 1px solid brown;
   text-align: center;
   color:goldenrod;
 
@@ -15,11 +26,13 @@ textarea {
   width:80%;
   padding: 1rem;
 }
-#btn-translate{
-  margin: 2rem;
-  display: flex;
-  align-items: column;
-  justify-content: center;
+#bid{
+  /* margin-left and margin-right + width = 100%*/ */
+    width:50%;
+    margin-left:25%;
+    margin-right:25%
+  /* text-align: center; */
+
 }
 #outti {
   padding: 1rem;
@@ -33,10 +46,13 @@ textarea {
 
 }
 #info{
+  background-color: rgb(39, 228, 140);
+  height: 50px;
+  border: 1 px solid papayawhip
   margin: 1 rem;
   padding: 1rem;
   display: flex;
-  color: gold;
+  color: papayawhip;
   align-items: center;
   justify-content: center;
   font-size: 20px;
